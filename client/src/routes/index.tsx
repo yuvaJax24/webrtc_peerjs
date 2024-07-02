@@ -7,7 +7,7 @@ const MainRoutes = () => {
   return (
     <Routes>
       <Route path="/" element={<MainPage />} />
-      <Route path="/room" element={<CreateRoom />} />
+      <Route path="/room/:id" element={<CreateRoom />} />
       <Route path="/room/:id" element={<JoinRoom />} />
     </Routes>
   );
